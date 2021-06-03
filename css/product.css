@@ -1,0 +1,318 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainwrapper{
+    height: 100%;
+
+}
+
+.main-container{
+    width: 100%;
+
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    z-index: 3;
+
+
+}
+
+.navlist{
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+    width: 1154px;
+
+    
+}
+
+.navlist a{
+    text-decoration: none;
+    font-family: 'Jura', sans-serif;
+    color:#000000;
+    font-size: 14px;
+    height: 86px;
+    font-weight: 500; 
+    
+}
+
+.navlist li{
+    padding: 0px 20px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+
+}
+
+.navlist a:hover{
+
+    color: blue;
+    
+}
+
+
+
+.logo{
+    font-family: 'Overpass', sans-serif;
+    font-size: 36px;
+    align-items: center;
+    text-align: left;
+    padding-right: 189px;
+    font-weight: 700;
+    margin-left: 8px;
+}
+    
+    
+
+.logo a{
+    text-decoration: none;
+    color: #242933;
+}
+
+.logo a:hover{
+    color: blue;
+}
+
+.rightnav{
+
+    align-items: center;
+    text-align: right;
+    display: flex;
+
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left;
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 20px;
+    
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {color:blue;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+
+/* nav bar on scroling */
+
+.scrolling_active{
+    background-color: white;
+    box-shadow: 0 3px 1rem rgba(0,0,0,0.1);
+}
+
+
+.img1{
+    width: 40px;
+    height: 41px;
+    padding-left: 92px;
+    padding-right: 13px;
+}
+.img2{
+    width: 28px;
+    height: 28px;
+    align-items: center;
+}
+
+
+/* Background */
+.background{
+    background: url(/image/vk.jpg);
+    width: 1903px;
+    height: 912.11px;
+    background-size: cover;
+
+}
+
+.fillcontainer{
+    width: 100%;
+    background-color: #e0dedf;
+    border-color: 2px solid;
+    height: 480px;
+}
+
+.maincontainer{
+    border: 2px solid;
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    
+
+}
+
+.image_Title{
+    width: 620px;
+    height: 400px;
+    border: 1px solid;
+    overflow: hidden;
+    position: relative;
+    top: 39px;
+    left: 80px;
+}
+
+.vivo1image{
+    background-image: url(/image/product\ 1.jpg);
+    width: 640px;
+    height: 400px;
+    position: absolute;
+}
+
+.logo1{
+    width: 40%;
+    height: 223px;
+    border: 1px solid;
+    position: relative;
+    top: 129px;
+    left: 56px;
+}
+
+
+.logo1_title{
+    font-family: sans-serif;
+    font-size: 90px;
+    position: absolute;
+    top: 25px;
+
+
+}
+
+
+.logo1_title2{
+    font-family: sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top: 115px;
+}
+
+.logo1lm{
+
+    font-size: 18px;
+    position: absolute;
+    top: 187px;
+    left: 168px;
+}
+
+.mainproductcontainer{
+    width: 1198px;
+    margin: auto;
+    display: flex;
+    border: 2px solid;
+    margin-top: 15px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.productdetails_nav{
+    width:100% ;
+    height: 100%;
+    padding: 25px 37px 0px 43px;
+    display: flex;
+
+}
+
+
+.navdetails{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 2px 0px 2px 2px;
+}
+
+.navdetails li{
+    list-style: none;
+    padding-right: 75px;
+    justify-content: space-evenly;
+    white-space: nowrap;
+}
+
+.navlist_para{
+    list-style: none;
+    padding-right: 75px;
+    font-family: sans-serif;
+    font-size: 18px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.navdetails a{
+    text-decoration: none;
+    color: black;
+}
+
+.navlist_para a{
+    text-decoration: none; 
+    color: black;
+}
+
+.hr1{
+   margin: auto;
+}
+
+.productsxivo{
+    /* margin: auto; */
+    width: 1100px;
+    height: 100%;
+    border: 1px solid;
+    /* padding-top: 0px; */
+    margin-top: 34px;
+}
+
+.phonedetails{
+    width: 100%;
+
+}
+
+.phonedetails li{
+    list-style: none;
+    margin-top: 30px;
+    padding-right: 10px;
+}
+
+.hed{
+    font-size: 20px;
+    margin-right: 122px;
+}
+
+.phonedetails a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
